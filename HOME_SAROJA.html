@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakopi Saroja - Coffee & Bread</title>
+    <link rel="stylesheet" href="SAROJA.CSS" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Sakopi Saroja</div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#pesanan">PESANAN</a></li>
+          <li><a href="#tentang">TENTANG KAMI</a></li>
+          <li><a href="#kontak">KONTAK</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1 class="brand-title">Sakopi Saroja</h1>
+          <p class="status-tag">We Are Open</p>
+          <p class="hero-desc">
+            Suasana nyaman, pilihan menu beragam, dan kopi segar menanti Anda.
+            Jadikan kedai kami tempat favorit baru Anda.
+          </p>
+          <h3 class="category-sub">COFFEE & BREAD</h3>
+        </div>
+        <div class="hero-image">
+          <img src="1.png" alt="Sakopi Saroja Coffee" />
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <p class="quote">
+          “PERPADUAN SEMPURNA RASA KOPI OTENTIK DAN ROTI PANGGANG HANGAT.”
+        </p>
+        <h2 class="section-title">MENU KAMI</h2>
+        <div class="menu-flex">
+          <div class="menu-item">
+            <img src="2.jpeg" alt="Coffe" />
+            <div class="menu-info">
+              <span class="badge">Coffe</span>
+              <p>
+                Ada beberapa jenis cofee yang kami sajikan di kedai kami, dengan
+                rasa bikin nyaman dan aroma bikin tenang.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item reverse">
+            <img src="3.jpg" alt="Bread" />
+            <div class="menu-info">
+              <span class="badge">Bread & Fries</span>
+              <p>
+                Nikmati perpaduan sempurna antara kopi favoritmu dengan aneka
+                suguhan bread & fries yang menggugah selera.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-menu" id="pesanan">
+        <div class="menu-category-detail">
+          <h2 class="detail-title">Coffe</h2>
+          <div class="detail-content">
+            <div class="price-card">
+              <ul class="price-list">
+                <li>
+                  <span>AMERICANO</span> <span class="dots"></span>
+                  <span>8K</span>
+                </li>
+                <li>
+                  <span>COFFE SUSU</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>COFFE SUSU GULA AREN</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>CARAMEL</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>BETTERSCOTH</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>HAZELNUT</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-category-detail">
+          <h2 class="detail-title">Bread & Fries</h2>
+          <div class="detail-content reverse">
+            <div class="price-card">
+              <ul class="price-list">
+                <li>
+                  <span>ROPANG BEEF</span> <span class="dots"></span>
+                  <span>8K</span>
+                </li>
+                <li>
+                  <span>ROPANG COKLAT SUSU</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>ROPANG COKLAT SUSU</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>ROPANG KEJU SUSU</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+                <li>
+                  <span>ROPANG FRIES</span> <span class="dots"></span>
+                  <span>10K</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order-section" id="pesanan">
+        <h2 class="section-title-alt">Pesanan</h2>
+        <p>
+          Pesan kopi favoritmu sekarang dan nikmati pengalaman yang tak
+          terlupakan!
+        </p>
+        <div class="menu-selection">
+          <h3>Coffee</h3>
+          <div class="item">
+            <span>AMERICANO - 8K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="AMERICANO"
+              data-price="8000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>COFFE SUSU - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="COFFE SUSU"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>COFFE SUSU GULA AREN - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="COFFE SUSU GULA AREN"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>CARAMEL - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="CARAMEL"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>BETTERSCOTH - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="BETTERSCOTH"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>HAZELNUT - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="HAZELNUT"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <h3>Bread & Fries</h3>
+          <div class="item">
+            <span>ROPANG BEEF - 8K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="ROPANG BEEF"
+              data-price="8000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>ROPANG COKLAT SUSU - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="ROPANG COKLAT SUSU"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>ROPANG KEJU SUSU - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="ROPANG KEJU SUSU"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+          <div class="item">
+            <span>ROPANG FRIES - 10K</span>
+            <input
+              type="number"
+              min="1"
+              value="1"
+              class="qty"
+              data-item="ROPANG FRIES"
+              data-price="10000"
+            />
+            <button class="add-btn">Tambah</button>
+          </div>
+        </div>
+        <div class="cart">
+          <h3>Keranjang</h3>
+          <ul id="cart-items"></ul>
+          <p>Total: Rp<span id="total">0</span></p>
+          <button id="checkout-btn">Checkout</button>
+        </div>
+        <form id="orderForm" style="display: none">
+          <input type="text" name="nama" placeholder="Nama" required />
+          <input type="hidden" name="order" id="order-data" />
+          <input type="hidden" name="total" id="total-data" />
+          <button type="submit" id="submitBtn">KIRIM PESANAN</button>
+        </form>
+        <p id="statusMsg"></p>
+      </section>
+
+      <section class="about-section" id="tentang">
+        <h2 class="section-title">Cerita Kami</h2>
+        <div class="about-content">
+          <p>
+            Dimulai dari obrolan dengan teman yang akhirnya muncul sebuah ide
+            pengen buka usaha kopi sampai akhirnya membangun usaha kedai kopi
+            yang terletak di galeri wirausaha Universitas Kuningan. Dengan nama
+            kedai kami Sakopi Saroja.
+          </p>
+          <p class="motto">"Satu Kopi, Satu Rasa, Satu Kebersamaan"</p>
+        </div>
+      </section>
+
+      <section class="contact-section" id="kontak">
+        <h2 class="section-title-alt">Hubungi Kami</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="icon">📍</span>
+            <div class="info-text">Galeri Wirausaha Universitas Kuningan</div>
+          </div>
+          <div class="contact-item">
+            <span class="icon"></span>
+            <div class="info-text">Sakopi.saroja</div>
+          </div>
+          <div class="contact-item">
+            <span class="icon">📞</span>
+            <div class="info-text">08996293084</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Sakopi Saroja. All rights reserved.</p>
+    </footer>
+
+    <script src="SAROJA.JS"></script>
+  </body>
+</html>
